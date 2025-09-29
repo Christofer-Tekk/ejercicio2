@@ -2,6 +2,5 @@ public class Main {
   public static void main(String[] args) {
     System.out.println("2+3 = " + AritmeticaSumar.sumar(2,3));
     System.out.println("27-13 = " + AritmeticaRestar.restar(27,13));
-    // Agregan llamadas de las otras clases
   }
 }
