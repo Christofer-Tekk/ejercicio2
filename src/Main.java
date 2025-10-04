@@ -5,6 +5,8 @@ public class Main {
     System.out.println("log 8 base 2 = " + AritmeticaLogaritmo.logaritmo(8,2));
     System.out.println("la raiz cuadrada de 81 = " + AritmeticalRaizCuadrada.Raiz(81));
     System.out.println("28/3 =" + AritmeticaDividir.dividir(28,3));
+    ArimeticaSumaEnteros instance = new ArimeticaSumaEnteros();
+    System.out.println("28 + 3 = " + instance.sumar(28,3));
     // Agregan llamadas de las otras clases
   }
 }
